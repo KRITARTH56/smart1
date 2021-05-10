@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body{
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+  overflow-y:scroll;
   box-sizing:border-box;
   padding:0;
   margin:0;
@@ -9,19 +13,20 @@ body{
 }
 .wrapper
 {
-  max-width:500px;
+  min-height:100vh;
   width:100%;
-  margin:auto;
-  padding:20px;
+  margin-top:60px;
+  padding-left:12%;
+  padding-right:12%;
+  box-sizing:border-box;
   background:#fff;
-  box-shadow:1px 1px 2px rgba(0,0,0,0.125);
+  box-shadow:1px 1px 1px rgba(0,0,0,0.125);
 }
 .title{
   font-size:40px;
   font-family:'Courgette' ;
- margin-top:10px;
+ margin-top:20px;
   font-weight:700;
-  margin-bottom:5px;
   color:#191970;
   text-transform:uppercase;
   text-align:center;
@@ -30,7 +35,7 @@ body{
 p{
   text-align: justify;
   font-style:'Courgette';
-  font-size:25px;
+  font-size:20px;
 }
 .col{
   display:flex;
@@ -38,22 +43,29 @@ p{
 .para{
   font-weight:500;
   font-style:'Itim';
+  padding-left:20%;
+  
 }
 button{
-  margin-top:5px;
+  margin-top:45px;
   display:flex;
   flex-direction:column;
-  padding:20px;
   background-color:#191970;
-  width:100%;
+  width:90%;
   align-items:center;
   justify-content:center;
   font-family: 'Courgette';
   color:#fff;
   font-size:30px;
+  padding:20px;
+}
+.state{
+  padding-left:20%;
+  padding-right:5%;
 }
 .style{
-  width: 200px;;
+  width: 200px;
   height:100px;
-  padding:5px;
+  padding:2px;
 }
+

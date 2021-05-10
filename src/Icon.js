@@ -4,6 +4,7 @@ import {GiStairsGoal} from "react-icons/gi";
 import {GiPlaneWing} from "react-icons/gi";
 function Icon(){
     return(
+        <div className="container">
         <div className="wrapper">
             <div className="title">
             Great, let's get Empowered
@@ -26,11 +27,12 @@ function Icon(){
                    <GiPlaneWing  className="style"/>
                     <p>A new opportunity. Wherever and whenever you need, you'll always have someone to turn to</p>
              </div>
-             <div>
+             <div  className="state">
                  <button onPress="">
                      Continue
                  </button>
              </div>
+        </div>
         </div>
     );
 }
