@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Sure from './Sure';
+import Icon from './Icon';
 
 ReactDOM.render(
-  <Sure/>
+  <Icon/>
   ,
   document.getElementById('root')
 );

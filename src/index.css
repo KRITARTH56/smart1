@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body{
   box-sizing:border-box;
   padding:0;
@@ -11,23 +12,35 @@ body{
   max-width:500px;
   width:100%;
   margin:auto;
-  margin-top:150px;
   padding:20px;
   background:#fff;
   box-shadow:1px 1px 2px rgba(0,0,0,0.125);
 }
 .title{
   font-size:40px;
-  font-family: 'Courgette';
+  font-family:'Courgette' ;
+ margin-top:10px;
   font-weight:700;
-  margin-bottom:25px;
+  margin-bottom:5px;
   color:#191970;
   text-transform:uppercase;
   text-align:center;
-  margin-bottom:40px;
+  margin-bottom:10px;
+}
+p{
+  text-align: justify;
+  font-style:'Courgette';
+  font-size:25px;
+}
+.col{
+  display:flex;
+}
+.para{
+  font-weight:500;
+  font-style:'Itim';
 }
 button{
-  margin-top:20px;
+  margin-top:5px;
   display:flex;
   flex-direction:column;
   padding:20px;
@@ -38,4 +51,9 @@ button{
   font-family: 'Courgette';
   color:#fff;
   font-size:30px;
+}
+.style{
+  width: 200px;;
+  height:100px;
+  padding:5px;
 }
