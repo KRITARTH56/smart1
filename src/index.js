@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Signup from './Signup'
+import Sure from './Sure';
 
 ReactDOM.render(
-  <Signup/>
+  <Sure/>
   ,
   document.getElementById('root')
 );
