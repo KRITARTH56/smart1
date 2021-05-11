@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Firstpage from './Firstpage';
+import Smart from './Smart';
 
 ReactDOM.render(
-  <Firstpage/>
+  <Smart/>
   ,
   document.getElementById('root')
 );
