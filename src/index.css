@@ -1,71 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-body{
-  width:100%;
-  height:100%;
-  overflow-x:hidden;
-  overflow-y:scroll;
-  box-sizing:border-box;
-  padding:0;
-  margin:0;
-  font-family:"Josefin Sans",Sans-serif;
-}
-.wrapper
 {
-  min-height:100vh;
-  width:100%;
-  margin-top:60px;
-  padding-left:12%;
-  padding-right:12%;
-  box-sizing:border-box;
-  background:#fff;
-  box-shadow:1px 1px 1px rgba(0,0,0,0.125);
+  margin:0;
+  padding:0;
 }
-.title{
-  font-size:40px;
-  font-family:'Courgette' ;
- margin-top:20px;
-  font-weight:700;
-  color:#191970;
-  text-transform:uppercase;
+body{
+  background-color:#fff;
+  margin-top:40px;
+  overflow:hidden;
+}
+.regform{
+  background-color:#fff;
   text-align:center;
-  margin-bottom:10px;
+  width:700px;
+  margin:auto;
+  border-radius:15px 15px 0px 0px;
+  color:#191970;
+  margin-top:125px;
+  margin-bottom:100px;
+  font-size:30px;
+
 }
-p{
-  text-align: justify;
-  font-style:'Courgette';
+a{
+  color:green;
+  font-size:30px;
+  text-decoration:none;
+}
+.end{
+  font-size:40px;
+  margin-top:0px;
+  padding-left:7%;
+  padding-right:6%;
+}
+.main{
+  width:700px;
+  margin:auto;
+  height:80vh;
+}
+input{
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:15px;
+  text-align:center;
+  font-size:20px;
+ 
+
+}
+form{
+  padding:10px;
+}
+.firstname{
+  position:relative;
+  border:5px solid #697274;
+  left:5px;
+  width:225px;
+  line-height:40px;
+  border-radius:4px;
+  padding:0 22px;
+  font-size:16;
+}
+.lastname{
+  position:relative;
+  left:0px;
+  border:5px solid #697274;
+  width:225px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+.company{
+  position:relative;
+  left:5px;
+  border:5px solid #697274;
+  width:500px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+@media only screen and (max-width: 700px){
+  body{
+  background-color:#fff;
+  margin-top:40px;
+  overflow:hidden;
+}
+.regform{
+  text-align:center;
+  width:500px;
+  margin:auto;
+  color:#191970;
+  border-radius:15px 15px 0px 0px;
+  margin-top:150px;
+  font-size:30px;
+}
+h5{
+  font-size:30px;
+  margin-bottom:50px;
+  padding-bottom:5%;
+}
+.main{
+  width:500px;
+  margin:auto;
+  height:80vh;
+}
+input{
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:15px;
+  text-align:center;
+
+}
+form{
+  padding:10px;
+}
+.firstname{
+  position:relative;
+  border:5px solid #697274;
+  width:270px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+.lastname{
+  position:relative;
+  border:5px solid #697274;
+    width:270px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+.company{
+  position:relative;
+  left:5px;
+  border:5px solid #697274;
+  width:270px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+  }
+}
+@media only screen and (max-width: 500px){
+  body{
+  background-color:#fff;
+  margin-top:40px;
+  overflow-y:scroll;
+}
+.regform{
+  text-align:center;
+  width:300px;
+  margin:auto;
+  color:#191970;
+  border-radius:15px 15px 0px 0px;
+  margin-top:150px;
   font-size:20px;
 }
-.col{
-  display:flex;
+.main{
+  width:300px;
+  margin:auto;
+  height:80vh;
 }
-.para{
-  font-weight:500;
-  font-style:'Itim';
-  padding-left:20%;
-  
+h5{
+  font-size:20px;
+  padding:3%;
 }
-button{
-  margin-top:45px;
-  display:flex;
-  flex-direction:column;
-  background-color:#191970;
-  width:90%;
-  align-items:center;
-  justify-content:center;
-  font-family: 'Courgette';
-  color:#fff;
-  font-size:30px;
-  padding:20px;
-}
-.state{
-  padding-left:20%;
-  padding-right:5%;
-}
-.style{
-  width: 200px;
-  height:100px;
-  padding:2px;
-}
+input{
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:15px;
+  text-align:center;
 
+}
+form{
+  padding:10px;
+}
+.firstname{
+  position:relative;
+  border:5px solid #697274;
+  width:200px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+.lastname{
+  position:relative;
+  border:5px solid #697274;
+    width:200px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+}
+.company{
+  position:relative;
+  left:5px;
+  border:5px solid #697274;
+  width:200px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16;
+  }
+}
