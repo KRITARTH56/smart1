@@ -153,7 +153,7 @@ form{
   margin:auto;
   color:#191970;
   border-radius:15px 15px 0px 0px;
-  margin-top:150px;
+  margin-top:40px;
   font-size:20px;
 }
 .main{
@@ -163,11 +163,16 @@ form{
 }
 h5{
   font-size:20px;
-  padding:3%;
+  padding-left:2%;
+  padding-right:2%;
+
+}
+a{
+  font-size:20px;
 }
 input{
   margin-top:20px;
-  margin-bottom:20px;
+  margin-bottom:0px;
   padding:15px;
   text-align:center;
 
@@ -179,6 +184,7 @@ form{
   position:relative;
   border:5px solid #697274;
   width:200px;
+  
   line-height:40px;
   border-radius:6px;
   padding:0 22px;
@@ -188,6 +194,7 @@ form{
   position:relative;
   border:5px solid #697274;
     width:200px;
+    left:5px;
   line-height:40px;
   border-radius:6px;
   padding:0 22px;
