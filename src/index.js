@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Smart from './Smart';
+import Free from './Free';
 
 ReactDOM.render(
-  <Smart/>
+  <Free/>
   ,
   document.getElementById('root')
 );
