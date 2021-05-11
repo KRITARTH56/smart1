@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Wego from './Wego';
+import Sure from './Sure';
 
 ReactDOM.render(
-  <Wego/>
+  <Sure/>
   ,
   document.getElementById('root')
 );
