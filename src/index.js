@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Free from './Free';
+import Wego from './Wego';
 
 ReactDOM.render(
-  <Free/>
+  <Wego/>
   ,
   document.getElementById('root')
 );
