@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Signup from './Signup';
+import Firstpage from './Firstpage';
 
 ReactDOM.render(
-  <Signup/>
+  <Firstpage/>
   ,
   document.getElementById('root')
 );
